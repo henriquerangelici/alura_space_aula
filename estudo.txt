@@ -1,0 +1,6 @@
+O que mandar e não mandar pro GIT
+ - No arquivo .env tem a secret key
+ - Nas settings: 
+    from dotenv import load_dotenv
+    load_dotenv()
+    SECRET_KEY = str(os.getenv('SECRET_KEY'))
